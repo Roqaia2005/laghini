@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302960528627",
+    "project_id": "laghini-8e22e",
+    "storage_bucket": "laghini-8e22e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302960528627:android:a15aad461d2696433d7b86",
+        "android_client_info": {
+          "package_name": "com.example.la8ini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4j1XMrtubFpOncG4w6tHcU6-5inMQCwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
