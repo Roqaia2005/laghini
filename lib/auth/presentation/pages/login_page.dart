@@ -32,15 +32,15 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<AuthCubit>(
-      create: (context) => getIt(),
+      create: (context) => sl(),
       child: Scaffold(
         appBar: AppBar(title: const Text('Login')),
         body: BlocListener<AuthCubit, AuthState>(
           listener: (context, state) {
-            if (state.isSuccess) {
+            if (state.isLoaded) {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text("Welcome ${state.user?.name ?? 'User'}"),
+                  content: Text("Welcome ${state.user?.fullname ?? 'User'}"),
                 ),
               );
             } else if (state.isError) {
